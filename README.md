@@ -1,6 +1,6 @@
 # ba-turing
 
-A minimal Turing editor, based on Electron.
+A better Turing editor, based on Electron JS and Node JS.
 
 ## License
 
