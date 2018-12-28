@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<nav class="nav-extended">
+		<div class="nav-wrapper blue darken-4" style="-webkit-app-region: drag">
+			<ul id="nav" class="left" style="-webkit-app-region: no-drag">
+				<li><a id="open"><i class="material-icons left">folder</i>Open</a></li>
+				<li><a id="save"><i class="material-icons left">save</i>Save</a></li>
+				<li><a id="run"><i class="material-icons left">play_arrow</i>Run</a></li>
+			</ul>
+			<ul id="nav" class="right" style="-webkit-app-region: no-drag">
+				<!--<li><a id="list" class="dropdown-trigger" data-target='dropdown'><i class="material-icons">expand_more</i></a></li>
+				-->
+				<li><a id="minimize"><i class="material-icons">remove</i></a></li>
+				<li><a id="maximize"><i class="material-icons">crop_din</i></a></li>
+				<li><a id="close"><i class="material-icons">close</i></a></li>
+			</ul>
+		</div>
+	</nav>
+	<div id="container"></div>
+</body>
+
+<script>
+	require('./renderer.js')
+	require('./winctrl.js')
+</script>
+
+</html>

@@ -1,0 +1,190 @@
+*** ENVIRONMENT CRASH ***
+
+Date: Dec 27 2018 2:54 PM
+
+File Name: C:\Users\Balaji\Desktop\ba-turing\turing\turing.exe
+Version: 1.0.1  [11]
+File Size: 4573696
+File Date: Dec 27 2018 4:53 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Cause of Crash: Access Violation
+
+Previous Operations:
+
+
+Registers
+  EAX=00529988  EBX=026FDDA0  ECX=00000021  EDX=6362742E  ESI=73A774B0
+  EDI=00000002  EBP=0019FED8  ESP=0019F6B8  EIP=0043B835  FLG=00010246
+  CS=0023  DS=002B  SS=002B  ES=002B  FS=0053  GS=002B
+
+List of Modules: 
+    C:\Users\Balaji\Desktop\ba-turing\turing\turing.exe
+    C:\WINDOWS\SYSTEM32\ntdll.dll
+    C:\WINDOWS\System32\KERNEL32.DLL
+    C:\WINDOWS\System32\KERNELBASE.dll
+    C:\WINDOWS\SYSTEM32\VERSION.dll
+    C:\WINDOWS\SYSTEM32\WINMM.dll
+    C:\WINDOWS\System32\msvcrt.dll
+    C:\WINDOWS\SYSTEM32\winmmbase.dll
+    C:\WINDOWS\System32\cfgmgr32.dll
+    C:\WINDOWS\System32\ucrtbase.dll
+    C:\WINDOWS\SYSTEM32\OPENGL32.dll
+    C:\WINDOWS\System32\ADVAPI32.dll
+    C:\WINDOWS\System32\sechost.dll
+    C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17134.472_none_4102c1a8450eed42\COMCTL32.dll
+    C:\WINDOWS\System32\RPCRT4.dll
+    C:\WINDOWS\System32\GDI32.dll
+    C:\WINDOWS\System32\SspiCli.dll
+    C:\WINDOWS\System32\CRYPTBASE.dll
+    C:\WINDOWS\System32\gdi32full.dll
+    C:\WINDOWS\System32\bcryptPrimitives.dll
+    C:\WINDOWS\System32\msvcp_win.dll
+    C:\WINDOWS\System32\USER32.dll
+    C:\WINDOWS\System32\win32u.dll
+    C:\WINDOWS\SYSTEM32\WININET.dll
+    C:\WINDOWS\SYSTEM32\GLU32.dll
+    C:\WINDOWS\System32\COMDLG32.dll
+    C:\WINDOWS\System32\combase.dll
+    C:\WINDOWS\System32\shcore.dll
+    C:\WINDOWS\System32\SHLWAPI.dll
+    C:\WINDOWS\System32\SHELL32.dll
+    C:\WINDOWS\System32\windows.storage.dll
+    C:\WINDOWS\System32\kernel.appcore.dll
+    C:\WINDOWS\System32\profapi.dll
+    C:\WINDOWS\System32\powrprof.dll
+    C:\WINDOWS\System32\FLTLIB.DLL
+    C:\WINDOWS\System32\IMM32.DLL
+    C:\WINDOWS\system32\uxtheme.dll
+    C:\WINDOWS\System32\MSCTF.dll
+    C:\WINDOWS\System32\OLEAUT32.dll
+    C:\WINDOWS\system32\dwmapi.dll
+    C:\WINDOWS\System32\psapi.dll
+    C:\WINDOWS\System32\ws2_32.dll
+    C:\WINDOWS\System32\TextInputFramework.dll
+    C:\WINDOWS\System32\CoreUIComponents.dll
+    C:\WINDOWS\System32\CoreMessaging.dll
+    C:\WINDOWS\SYSTEM32\wintypes.dll
+    C:\WINDOWS\SYSTEM32\ntmarta.dll
+    C:\WINDOWS\system32\Oleacc.dll
+    C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17134.472_none_42ecd1cc44e43e73\comctl32.DLL
+    C:\WINDOWS\SYSTEM32\dbghelp.dll
+
+  0 .V PC=0023:0043b835 Ret=00401162 Frame=0019fed8 Stack=0019f6b8
+    Parameters (0x00400000 0x00000000 0x0092aa9b 0x0000000a)
+    x:\openturing\ready\src\ed.c, WinMain (), Line 0355+0006 byte(s)
+  1 .V PC=0023:00401162 Ret=0040100f Frame=0019ff78 Stack=0019fee0
+    Parameters (0x0019ff94 0x758b8484 0x002b7000 0x758b8460)
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c, __tmainCRTStartup (), Line 0275+0044 byte(s)
+  2 .V PC=0023:0040100f Ret=758b8484 Frame=0019ff80 Stack=0019ff80
+    Parameters (0x002b7000 0x758b8460 0xad5c4027 0x0019ffdc)
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c, WinMainCRTStartup (), Line 0189+0000 byte(s)
+  3 .V PC=0023:758b8484 Ret=76ef3ab8 Frame=0019ff94 Stack=0019ff88
+    Parameters (0x002b7000 0x0ec6c976 0x00000000 0x00000000)
+    Unknown module, BaseThreadInitThunk() + 0036 byte(s)
+  4 .V PC=0023:76ef3ab8 Ret=76ef3a88 Frame=0019ffdc Stack=0019ff9c
+    Parameters (0xffffffff 0x76f0f32e 0x00000000 0x00000000)
+    Unknown module, RtlAreBitsSet() + 0136 byte(s)
+  5 .V PC=0023:76ef3a88 Ret=00000000 Frame=0019ffec Stack=0019ffe4
+    Parameters (0x00401000 0x002b7000 0x00000000 0x78746341)
+    Unknown module, RtlAreBitsSet() + 0088 byte(s)
+
+------------------------------------------------------
+*** ENVIRONMENT CRASH ***
+
+Date: Dec 27 2018 2:56 PM
+
+File Name: C:\Users\Balaji\Desktop\ba-turing\turing\turing.exe
+Version: 1.0.1  [11]
+File Size: 4573696
+File Date: Dec 27 2018 4:53 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Cause of Crash: Access Violation
+
+Previous Operations:
+
+
+Registers
+  EAX=00529988  EBX=02A1DDA0  ECX=00000021  EDX=6362742E  ESI=73A774B0
+  EDI=00000002  EBP=0019FED8  ESP=0019F6B8  EIP=0043B835  FLG=00010246
+  CS=0023  DS=002B  SS=002B  ES=002B  FS=0053  GS=002B
+
+List of Modules: 
+    C:\Users\Balaji\Desktop\ba-turing\turing\turing.exe
+    C:\WINDOWS\SYSTEM32\ntdll.dll
+    C:\WINDOWS\System32\KERNEL32.DLL
+    C:\WINDOWS\System32\KERNELBASE.dll
+    C:\WINDOWS\System32\USER32.dll
+    C:\WINDOWS\System32\win32u.dll
+    C:\WINDOWS\SYSTEM32\OPENGL32.dll
+    C:\WINDOWS\System32\GDI32.dll
+    C:\WINDOWS\System32\msvcrt.dll
+    C:\WINDOWS\System32\gdi32full.dll
+    C:\WINDOWS\System32\ADVAPI32.dll
+    C:\WINDOWS\System32\msvcp_win.dll
+    C:\WINDOWS\System32\sechost.dll
+    C:\WINDOWS\System32\ucrtbase.dll
+    C:\WINDOWS\System32\RPCRT4.dll
+    C:\WINDOWS\System32\SspiCli.dll
+    C:\WINDOWS\System32\CRYPTBASE.dll
+    C:\WINDOWS\System32\COMDLG32.dll
+    C:\WINDOWS\System32\bcryptPrimitives.dll
+    C:\WINDOWS\System32\combase.dll
+    C:\WINDOWS\System32\shcore.dll
+    C:\WINDOWS\System32\SHLWAPI.dll
+    C:\WINDOWS\SYSTEM32\VERSION.dll
+    C:\WINDOWS\System32\SHELL32.dll
+    C:\WINDOWS\System32\cfgmgr32.dll
+    C:\WINDOWS\SYSTEM32\WINMM.dll
+    C:\WINDOWS\System32\windows.storage.dll
+    C:\WINDOWS\System32\kernel.appcore.dll
+    C:\WINDOWS\System32\profapi.dll
+    C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17134.472_none_4102c1a8450eed42\COMCTL32.dll
+    C:\WINDOWS\System32\powrprof.dll
+    C:\WINDOWS\System32\FLTLIB.DLL
+    C:\WINDOWS\SYSTEM32\WININET.dll
+    C:\WINDOWS\SYSTEM32\GLU32.dll
+    C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+    C:\WINDOWS\System32\IMM32.DLL
+    C:\WINDOWS\system32\uxtheme.dll
+    C:\WINDOWS\System32\MSCTF.dll
+    C:\WINDOWS\System32\OLEAUT32.dll
+    C:\WINDOWS\system32\dwmapi.dll
+    C:\WINDOWS\System32\psapi.dll
+    C:\WINDOWS\System32\ws2_32.dll
+    C:\WINDOWS\System32\TextInputFramework.dll
+    C:\WINDOWS\System32\CoreMessaging.dll
+    C:\WINDOWS\System32\CoreUIComponents.dll
+    C:\WINDOWS\SYSTEM32\wintypes.dll
+    C:\WINDOWS\SYSTEM32\ntmarta.dll
+    C:\WINDOWS\system32\Oleacc.dll
+    C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17134.472_none_42ecd1cc44e43e73\comctl32.DLL
+    C:\WINDOWS\SYSTEM32\dbghelp.dll
+
+  0 .V PC=0023:0043b835 Ret=00401162 Frame=0019fed8 Stack=0019f6b8
+    Parameters (0x00400000 0x00000000 0x00b8aa9b 0x0000000a)
+    x:\openturing\ready\src\ed.c, WinMain (), Line 0355+0006 byte(s)
+  1 .V PC=0023:00401162 Ret=0040100f Frame=0019ff78 Stack=0019fee0
+    Parameters (0x0019ff94 0x758b8484 0x002f3000 0x758b8460)
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c, __tmainCRTStartup (), Line 0275+0044 byte(s)
+  2 .V PC=0023:0040100f Ret=758b8484 Frame=0019ff80 Stack=0019ff80
+    Parameters (0x002f3000 0x758b8460 0x50d59014 0x0019ffdc)
+    f:\dd\vctools\crt_bld\self_x86\crt\src\crt0.c, WinMainCRTStartup (), Line 0189+0000 byte(s)
+  3 .V PC=0023:758b8484 Ret=76ef3ab8 Frame=0019ff94 Stack=0019ff88
+    Parameters (0x002f3000 0x4ff33062 0x00000000 0x00000000)
+    Unknown module, BaseThreadInitThunk() + 0036 byte(s)
+  4 .V PC=0023:76ef3ab8 Ret=76ef3a88 Frame=0019ffdc Stack=0019ff9c
+    Parameters (0xffffffff 0x76f0f30e 0x00000000 0x00000000)
+    Unknown module, RtlAreBitsSet() + 0136 byte(s)
+  5 .V PC=0023:76ef3a88 Ret=00000000 Frame=0019ffec Stack=0019ffe4
+    Parameters (0x00401000 0x002f3000 0x00000000 0x78746341)
+    Unknown module, RtlAreBitsSet() + 0088 byte(s)
+
+------------------------------------------------------
