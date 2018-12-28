@@ -4,4 +4,4 @@
 
 ## License
 
-(BA License)[LICENSE]
+[BA License](LICENSE)
