@@ -1,6 +1,6 @@
 # ba-turing
 
-> A minimal Turing editor, based on Electron
+A minimal Turing editor, based on Electron.
 
 ## License
 
