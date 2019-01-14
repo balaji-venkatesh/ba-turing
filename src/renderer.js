@@ -1,5 +1,5 @@
 import loader from 'monaco-loader';
-import { remote, ipcRenderer, Menu, MenuItem} from 'electron';
+import { remote, ipcRenderer, Menu, MenuItem } from 'electron';
 import FileManager from './filemanager';
 import spawn from 'child_process';
 
@@ -34,13 +34,17 @@ loader().then((monaco) => {
   });
 
   document.getElementById("run").addEventListener("click", (e) => {
-    fileManager.saveFileName(function (filename) {
-      spawn.exec("resources\\app\\turing\\turing.exe -compile " + filename, function (err, stdout, stderr) {
-        spawn.exec("resources\\app\\turing\\TuringEXEProlog.exe -file " + filename + 'bc', function (err, stdout, stderr) {
-          spawn.exec("del /f filename " + filename + 'bc');
+    fileManager.saveFileCall(function () {
+      spawn.exec("resources\\app\\turing\\turing.exe -compile " + fileManager.name, function (err, stdout, stderr) {
+        spawn.exec("resources\\app\\turing\\TuringEXEProlog.exe -file " + fileManager.name + 'bc', function (err, stdout, stderr) {
+          spawn.exec("del /f filename " + fileManager.name + 'bc');
         });
       });
     });
+  });
+
+  document.getElementById("help").addEventListener("click", (e) => {
+    spawn.exec("resources\\app\\turing\\support\\help\\TuringDoc.chm");
   });
 
 

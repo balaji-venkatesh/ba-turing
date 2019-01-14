@@ -1,7 +1,7 @@
 {
     "name": "ba-turing",
     "productName": "ba-turing",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "ba-turing is a better turing IDE, based on Electron JS and Node JS.",
     "main": "src/index.js",
     "scripts": {
@@ -42,8 +42,8 @@
             "electronInstallerDebian": {},
             "electronInstallerRedhat": {},
             "github_repository": {
-                "owner": "",
-                "name": ""
+                "owner": "balaji-venkatesh",
+                "name": "ba-turing"
             },
             "windowsStoreConfig": {
                 "packageName": "",
