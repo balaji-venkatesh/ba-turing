@@ -51,7 +51,7 @@
         }
     },
     "dependencies": {
-        "electron-compile": "^6.1.2",
+        "electron-compile": "^6.4.4",
         "monaco-loader": "^0.8.2"
     },
     "devDependencies": {
