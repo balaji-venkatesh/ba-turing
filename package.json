@@ -1,7 +1,7 @@
 {
     "name": "ba-turing",
     "productName": "ba-turing",
-    "version": "0.2.0",
+    "version": "0.2.0-beta",
     "description": "ba-turing is a better turing IDE, based on Electron JS and Node JS.",
     "main": "src/index.js",
     "scripts": {
@@ -56,15 +56,7 @@
         "monaco-loader": "^0.8.2"
     },
     "devDependencies": {
-        "babel-plugin-transform-async-to-generator": "^6.22.0",
-        "babel-preset-env": "^1.1.10",
-        "babel-preset-react": "^6.23.0",
         "electron-forge": "^3.0.5",
-        "electron-prebuilt-compile": "1.4.15",
-        "eslint": "^3.16.1",
-        "eslint-config-airbnb": "^14.1.0",
-        "eslint-plugin-import": "^2.2.0",
-        "eslint-plugin-jsx-a11y": "^3.0.0",
-        "eslint-plugin-react": "^6.10.0"
+        "electron-prebuilt-compile": "1.4.15"
     }
 }
