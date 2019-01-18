@@ -1,6 +1,6 @@
 A better Turing editor, built with on Electron and node.js.
 
-![Screenshot of ba-turing](IMAGE.JPG)
+![Screenshot of ba-turing](screenshot.jpg)
 
 # Download
 
