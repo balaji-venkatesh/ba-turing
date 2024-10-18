@@ -4,6 +4,4 @@ A better Turing editor, built on Electron.js and node.js.
 
 # Download
 
-ba-turing is no longer maintained. Downloads are only availible for Windows:
-
-[Download - Windows](ba-turing-win64-1.0.0-setup.exe)
+ba-turing is no longer maintained.=, and a download is only availaible for Windows. [See GitHub releases.](https://github.com/balaji-venkatesh/ba-turing/releases/tag/v1.0.0)
