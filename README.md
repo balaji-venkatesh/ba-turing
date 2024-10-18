@@ -1,9 +1,9 @@
-# ba-turing
+A better Turing editor, built on Electron.js and node.js.
 
-A better Turing editor, based on Electron JS and Node JS.
+![Screenshot of ba-turing](screenshot.jpg)
 
-Unfinished and not in development as Turing is being phased out.
+# Download
 
-## License
+ba-turing is no longer maintained. Downloads are only availible for Windows:
 
-[BA License](LICENSE)
+[Download - Windows](ba-turing-win64-1.0.0-setup.exe)
