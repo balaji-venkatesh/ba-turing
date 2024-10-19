@@ -1,6 +1,6 @@
 A better Turing editor, built on Electron.js and node.js. Written by [Balaji Venkatesh](https://balajiv.ca)
 
-![Screenshot of ba-turing](screenshot.jpg)
+![Screenshot of ba-turing](screenshot.png)
 
 # Download
 
